@@ -116,9 +116,9 @@ int main(int argc, char *argv[]){
         
             }
 
-        printf("Process %d: Global Average: %f\n", rank, localAverage);
-        printf("Process %d: Global Max: %d\n", rank, localMax);
-        printf("Process %d: Global Variance: %f\n", rank, localVariance);
+            printf("Process %d: Global Average: %f\n", rank, localAverage);
+            printf("Process %d: Global Max: %d\n", rank, localMax);
+            printf("Process %d: Global Variance: %f\n", rank, localVariance);
 
         }
 
